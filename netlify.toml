@@ -1,5 +1,5 @@
-[build] 
-command = "npm run build" publish = "dist"
+[build]
+ command = "npm run build" publish = "dist"
 
-[build.environment]
- NODE_VERSION = "18.18.2" GO_VERSION = "off"
+[build.environment] 
+NODE_VERSION = "22.14.0" NPM_FLAGS = "--force"
